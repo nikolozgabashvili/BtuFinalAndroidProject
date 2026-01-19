@@ -1,0 +1,14 @@
+package com.example.btufinalandroidproject.domain.core.managers.theme.usecase
+
+import com.example.btufinalandroidproject.domain.core.managers.theme.Theme
+import com.example.btufinalandroidproject.domain.core.managers.theme.repository.ThemeRepository
+import kotlinx.coroutines.flow.Flow
+import javax.inject.Inject
+
+class GetSelectedThemeUseCase @Inject constructor(
+    private val themeRepository: ThemeRepository
+) {
+    suspend operator fun invoke(): Flow<Theme> {
+        return themeRepository.getTheme()
+    }
+}

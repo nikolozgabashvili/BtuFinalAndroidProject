@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="gray">#666666</color>
+    <color name="gray_dark">#3C3C3C</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="app_background">#E2E2E2</color>
+    <color name="text_error">#FF5454</color>
+
+    <color name="textPrimary">#34383C</color>
+    <color name="textSecondary">#A334383C</color>
+    <color name="bottom_ripple">#2934383C</color>
+    <color name="input_stroke">#CCCCCC</color>
+
+    <color name="buttonDark">#232629</color>
+    <color name="invertedLight">#FFFFFF</color>
+`    <color name="baseLight">#000000</color>
+
+    <color name="ComponentPressed">#1A34383C</color>
+    <color name="errorBase">#D71920</color>
+    <color name="errorPressed">#29D71920</color>
+    <color name="errorDisabled">#14D71920</color>
+
+
+    <color name="buttonPrimaryPressed">#232629</color>
+    <color name="disabled">#0D34383C</color>
+    <color name="buttonPrimary">#34383C</color>
+    <color name="buttonSecondary">#0D34383C</color>
+    <color name="buttonSecondaryPressed">#1A34383C</color>
+
+
+    <color name="textDisabled">#3D34383C</color>
+
+
+</resources>

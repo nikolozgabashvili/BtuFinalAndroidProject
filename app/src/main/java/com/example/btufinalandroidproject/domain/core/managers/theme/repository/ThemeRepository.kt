@@ -1,0 +1,10 @@
+package com.example.btufinalandroidproject.domain.core.managers.theme.repository
+
+import com.example.btufinalandroidproject.domain.core.managers.theme.Theme
+import kotlinx.coroutines.flow.Flow
+
+interface ThemeRepository {
+    suspend fun getTheme(): Flow<Theme>
+    suspend fun setTheme(theme: Theme)
+    fun getAvailableThemes(): List<Theme>
+}
